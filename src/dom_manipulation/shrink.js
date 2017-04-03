@@ -1,10 +1,11 @@
-rwb.prototype.grow = function() {
+rwb.prototype.shrink = function() {
 	var selector = document.querySelector(query);
-	var max = 200;
+	var min = 200;
 	function cWidth() {
 		var x;
-		for (var i=selector.style.width;i<=y;i++){
-			if(i>max){
+		var y=1;
+		for (var i=selector.style.width;i<=y;i--){
+			if(i>min){
 				break;
 			}
 			x=i;
@@ -14,8 +15,8 @@ rwb.prototype.grow = function() {
 }
 function cHeight() {
 	var x;
-	for (var i=1;i<=y;i++) {
-		if(i>max){
+	for (var i=selector.style.width;i<=y;i--) {
+		if(i>min){
 			break;
 		}
 		x=i;
