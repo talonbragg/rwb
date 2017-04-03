@@ -1,0 +1,25 @@
+{
+  "name": "rwb",
+  "version": "0.0.0",
+  "description": "Red White and Blue, the American UI Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talonbragg/rwb.git"
+  },
+  "keywords": [
+    "rwb",
+    "ui",
+    "js",
+    "rwbjs"
+  ],
+  "author": "Talon Bragg <pvpgamecrash@gmail.com> (http://custommarkup.ml)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talonbragg/rwb/issues"
+  },
+  "homepage": "https://github.com/talonbragg/rwb#readme"
+}
