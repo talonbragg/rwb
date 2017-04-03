@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/talonbragg/rwb/issues"
   },
-  "homepage": "https://github.com/talonbragg/rwb#readme"
+  "homepage": "https://github.com/talonbragg/rwb#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
